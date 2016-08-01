@@ -122,4 +122,3 @@ $("#main-image").css("background-image", "url("+mainImageURL+")");
 $("#school-image").css("background-image", "url("+schoolImageURL+")");
 $("#career-image").css("background-image", "url("+careerImageURL+")");
 $("#hobbies-image").css("background-image", "url("+hobbiesImageURL+")"); */
-
