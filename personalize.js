@@ -1,14 +1,10 @@
 //Personalization
 
-// headline of article
-
-var headline = "name" + " Gives a Generous Donation to All Star Code";
-
-// name of person 
-var founder = "Austin Carvey";
+// name of person
+var name = "Robert Bonner";
 
 //pic of founder
-var schoolImageURL = "https://lh5.googleusercontent.com/-69pgXW97y6o/AAAAAAAAAAI/AAAAAAAAAWg/43z6jsm8Mmo/photo.jpg"
+var benefitImageURL = "https://lh5.googleusercontent.com/-69pgXW97y6o/AAAAAAAAAAI/AAAAAAAAAWg/43z6jsm8Mmo/photo.jpg"
 
 //customer
 var customer = "dancers";
@@ -23,7 +19,7 @@ var product = "tap shoes";
 var careerImageURL = "http://www.mastersofamericantapdance.com/data/images/lane_alexander.jpg";
 
 //business name
-var name = "TapsRUs";
+var name = "SlamJam";
 
 //slogan
 var subheading = "Tap your way to success!";
