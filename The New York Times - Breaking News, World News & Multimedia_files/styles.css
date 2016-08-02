@@ -1,13 +1,23 @@
 /*BENEFIT CODE BEGINS HERE*/
-#benefitsummary{
+
+#benefitParagraph1, #benefitParagraph2, #benefitParagraph3{
   font-size: 0.95rem;
-  line-height: 1.4rem;
+  line-height: 1.6rem;
+  padding: 0.8rem;
 }
 
+#benefitPersonDescription{
+  font-size: 0.725rem;
+}
 #benefitPhotoDescription{
   font-size: 0.725rem;
 }
+#fixColoringforBenefit {
+  color: black;
+}
 /*BENEFIT CODE ENDS HERE */
+
+
 .free-trial-intro,
 .free-trial-post,
 .free-trial-upsell {
@@ -15726,4 +15736,6 @@ section.recommendations .tab-content {
     font-family: "nyt-franklin", arial, helvetica, sans-serif;
     color: #6288a5
 }
+@import url("https://platform.twitter.com/css/tweet.32e4c4ad05a2b0fae454cc63470e160f.light.ltr.css");
+
 /*# sourceMappingURL=styles.css.map */
