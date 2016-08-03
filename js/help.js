@@ -1,79 +1,94 @@
 //Personalization
-
 // name of person
-var firstName = "Michael";
-var lastName = "Schwartz";
+var firstName = "Ann Marie";
+var lastName = "Scallies";
 var fullName = firstName + " " + lastName;
+// Gender
+var male = false;
+
+var gender = male;
+var heShe;
+var hisHer;
+if(gender===true) {
+  heShe = "he";
+  hisHer = "his";
+}
+else {
+  heShe = "she";
+  hisHer = "her";
+}
+
+
+var benefitHeading = fullName + " Named the Most Interesting Person In the World";
 
 //pic of person
-var benefitImageURL = "https://media.licdn.com/mpr/mpr/shrinknp_200_200/AAEAAQAAAAAAAAaoAAAAJDA4Mzg3MWI1LTRkN2EtNDk4Ny04YjRkLWNjNjdkODVlNWU4NA.jpg";
+var benefitImageURL = "https://media.licdn.com/mpr/mpr/shrinknp_200_200/p/4/005/099/2b3/0e95462.jpg";
 
 // decription for image
-var benefitPhotoDescription = fullName +" " + "named best photographer of the year.";
+var benefitPhotoDescription = fullName +" " + "named most interesting person";
 
 // Paragraph 1 Info
 
 //net worth of person
-var netWorth = "$10,000,000";
+// the movement ( START WITH A VERB)
+var movementTheyLike = " Starting a museum that has every art peice that has ever existed, even art peices created by animals. This is the first program that allowed animals to submit art pieces";
 
-//movements/causes they support
-var movement1 = "Music education";
-var movement2 = "Cultural education";
+//animals that they like
+var Animal1andShoeBrand = "Asics the Cat";
+var Animal2 = "Dogs";
 
 // Paragraph 2 Info
 
 //activities
-var activity1 = "attending the theater";
-var activity2 = "hiking in mountains";
-var activity3 = "eating out at fancy restaurants";
+var activity1 = "running";
+var activity2 = "Horseback Riding";
+var activity3 = "taking art classes";
 
 //favorite food & drink
-var food = "salad";
-var drink = "drink of water";
+var food = "Sushi";
+var drink = "drink of lemonade";
 
 //area person lives in
-var area = "Upper West Side in New York City";
+var area = "Carol Gardens";
 var areaReason = "it's convienent and accessible";
 
 // interesting fact
-var interestingFact = "he loves to dance";
+var interestingFact = " was part of the first class at Yale that allowed women";
 
-//Paragraph 3 Info
-
-//what person finds inpsiration from & reason for that
-var inspirationThing = "blacks in technology";
-var inspirationReason = "he supports the uplifiting of everybody";
-
-// what person likes the most about all star Code
-var favoriteThing = "he's the photographer";
-var favoriteThingReason = "he can catch all the great moments in action";
+// //Paragraph 3 Info
+//
+// //what person finds inpsiration from & reason for that
+// var inspirationThing = "";
+// var inspirationReason = "he supports the uplifiting of everybody";
+//
+// // what person likes the most about all star Code
+// var favoriteThing = "he's the photographer";
+// var favoriteThingReason = "he can catch all the great moments in action";
 
 // favorite celeberity of person
 var benefitTweetCelebrityText = firstName + " is such an awesome inspiration to me! From the causes he supports to the wonder and interest in All Star Code. I can't wait to meet them someday.";
-var benefitTweetCelebrityName = "Beyonce";
-var benefitTweetCelebrityHandle = "@Beyonce";
-var benefitTweetCelebrityAvatar = "https://pbs.twimg.com/profile_images/724054682579161088/3GgLeR65.jpg";
+var benefitTweetCelebrityName = "JMichelle Obama";
+var benefitTweetCelebrityHandle = "@michelleobama";
+var benefitTweetCelebrityAvatar = "https://pbs.twimg.com/profile_images/507610912933441538/HCKhYoBO.png";
 
 
 // heading for benefitPhotoDescription
-var benefitHeading = fullName + " Wows at All Star Code Benefit";
 
 
 //benefit pargraph one
-var benefitParagraph1 = "EAST HAMPTONS, N.Y. — August 6th, " + fullName + " was named the top benefactor of the All Star Code 2016 Benefit. " + lastName + " had donated a grand total of over " + netWorth + ".";
-benefitParagraph1 += " Hosted at Christina Lewis Halpern’s summer home in the East Hamptons, " + lastName + " is well known for their participation in various movements, including " + movement1 + ", and " + movement2 + ".";
-benefitParagraph1 += " They have shown unwavering support, and have been a huge proponent of All Star Code since the beginning.";
+var benefitParagraph1 = "EAST HAMPTONS, N.Y. — August 6th, " + fullName + " was recently named one of the most interesting people in the world. " + lastName + " beat billions of other people for the title, for " + hisHer + " work" + movementTheyLike + ".";
+benefitParagraph1 += " The activities of " + lastName + " were done in dedication to " + hisHer + " pet " + Animal1andShoeBrand + ", and " + Animal2 + ", which " + heShe + " believe will be one of man's best friends in the next ten years, when the alien overlords from Mars take over.";
 
 //benefit paragraph two
-var benefitParagraph2 = "On the weekends and in their freetime, " + firstName + " can be found " + activity1 + ".";
-benefitParagraph2 += " They also enjoy " + activity2 + " and " + activity3 + ". " + firstName + " enjoys " + food + " with a refreshing " + drink+ ". ";
-benefitParagraph2 += firstName + " lives in " + area + ", which they enjoy living in because " + areaReason + "." + " One thing that many don't know about " + firstName + " is that " + interestingFact + ".";
+var benefitParagraph2 = "On the weekends and in " + hisHer + " freetime, " + firstName + " can be found " + activity1 + ". ";
+benefitParagraph2 +=  heShe + " also enjoys " + activity2 + " and " + activity3 + ". " + firstName + " enjoys " + food + " with a refreshing " + drink+ " and " + heShe + " is originally from " + area + ". ";
+benefitParagraph2 += firstName + " plans to move to Mars with " + hisHer + " pet " + Animal1andShoeBrand + "." + " One thing that many don't know about " + firstName + " is that " + interestingFact + ". It's clear that the world's choice for most interesting person was a very good one.";
 
 //benefit paragraph three
-var benefitParagraph3 = "One of the things that " + lastName + " finds inspiration from is " + inspirationThing + " because " + inspirationReason + ".";
-benefitParagraph3 += lastName + " uses this inspiration to help out different causes, such as that of All Star Code.";
-benefitParagraph3 += " One of " + lastName + "'s" + " favorite things about All Star Code is that " + favoriteThing + ".";
-benefitParagraph3 += " They find this so great because " + favoriteThingReason + ".";
+// var benefitParagraph3 = "One of the things that " + lastName + " finds inspiration from is " + inspirationThing + " because " + inspirationReason + ".";
+// benefitParagraph3 += lastName + " uses this inspiration to help out different causes, such as that of All Star Code.";
+// benefitParagraph3 += " One of " + lastName + "'s" + " favorite things about All Star Code is that " + favoriteThing + ".";
+// benefitParagraph3 += " They find this so great because " + favoriteThingReason + ".";
 
 
 
