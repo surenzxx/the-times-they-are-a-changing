@@ -1,6 +1,6 @@
 //Personalization
 // name of person
-var firstName = "Ann Marie";
+var firstName = "Ann";
 var lastName = "Scallies";
 var fullName = firstName + " " + lastName;
 // Gender
@@ -81,7 +81,7 @@ benefitParagraph1 += " The activities of " + lastName + " were done in dedicatio
 
 //benefit paragraph two
 var benefitParagraph2 = "On the weekends and in " + hisHer + " freetime, " + firstName + " can be found " + activity1 + ". ";
-benefitParagraph2 +=  heShe + " also enjoys " + activity2 + " and " + activity3 + ". " + firstName + " enjoys " + food + " with a refreshing " + drink+ " and " + heShe + " is originally from " + area + ". ";
+benefitParagraph2 +=  firstName + " also enjoys " + activity2 + " and " + activity3 + ". " + firstName + " enjoys " + food + " with a refreshing " + drink+ " and " + heShe + " is originally from " + area + ". ";
 benefitParagraph2 += firstName + " plans to move to Mars with " + hisHer + " pet " + Animal1andShoeBrand + "." + " One thing that many don't know about " + firstName + " is that " + interestingFact + ". It's clear that the world's choice for most interesting person was a very good one.";
 
 //benefit paragraph three
